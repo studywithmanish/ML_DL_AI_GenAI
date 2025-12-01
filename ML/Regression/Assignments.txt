@@ -1,0 +1,57 @@
+Data Preprocessing:
+
+How do you handle missing values in the dataset?
+
+What scaling or normalization techniques will you apply to the features?
+
+How will you handle outliers and anomalies in the data?
+
+Will you perform any feature engineering, and if so, what kind?
+
+Exploratory Data Analysis (EDA):
+
+What is the distribution of the target variable?
+
+How do the features correlate with the target variable?
+
+Are there any multicollinearity issues among the features?
+
+What are the statistical summaries and visualizations of the data?
+
+****************************
+Statistical Analysis:
+
+What are the hypotheses for testing normality of the data?
+
+Which tests will you use to check for normality (e.g., Shapiro-Wilk test, Kolmogorov-Smirnov test)?
+
+How do you detect and handle outliers (e.g., using IQR, Z-scores)?
+
+What are the results of any chi-square tests or other relevant statistical tests?
+
+**************************
+Modeling:
+
+Which regression models will you start with (e.g., Linear Regression, Ridge, Lasso)?
+
+How will you perform hyperparameter tuning (e.g., grid search, random search)?
+
+How do you validate your models (e.g., cross-validation, train-test split)?
+
+What metrics will you use to evaluate the models (e.g., RMSE, MAE, R-squared)?
+
+**********************************
+Ensemble and Stacking:
+
+Which ensemble methods will you use (e.g., Random Forest, Gradient Boosting)?
+
+How will you implement stacking and combine different models?
+
+How will you compare the performance of individual models and the ensemble?
+
+******************************
+Model Comparison:
+
+What statistical tests will you use to compare model performances (e.g., paired t-test)?
+
+How will you visualize the comparison (e.g., box plots, residual plots)?
