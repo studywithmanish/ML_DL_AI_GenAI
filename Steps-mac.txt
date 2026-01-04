@@ -57,4 +57,7 @@ brew install gh
 gh auth login
 
 
+selected option - https 
+
+then via browser step key which mac terminal generated 
 ***************************
