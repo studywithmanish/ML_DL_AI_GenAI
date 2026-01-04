@@ -1,14 +1,63 @@
+Install Uv
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+source $HOME/.local/bin/env
+
+uv --version
+
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+*********
 
 uv init
 Uv python list
-uv venv .venv --python cpython-3.11.13-windows-x86_64-none
+uv venv .venv --python cpython-3.13.11-macos-aarch64-none
+
+chmod +x .venv/bin/activate
+
 .venv\Script\activate
+.venv/bin/activate
 uv pip install -r requirements.txt
 
+ls -la .venv/bin/activate
+output :
+-rwxr-xr-x@ 1 manishchoudhary  staff  4117 Jan  4 20:33 .venv/bin/activate
+
+source .venv/bin/activate
 
 
-
+uv pip list
 ********************************
+
+github authentication 
+
+I need to first install brew which is package manager of Macos
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+I need to login with my coumputer Administartor password then I can able to install Homebrew - User is my case manishchoudhary
+
+Add Homebrew PATH
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+then check -
+
+brew --version
+
+************************************
+
+
+
+brew install gh
+gh auth login
+
+
+***************************
 
 
 Step 1 - 

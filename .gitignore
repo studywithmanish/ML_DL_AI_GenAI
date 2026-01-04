@@ -10,3 +10,4 @@ wheels/
 .venv
 important.txt
 doc.docx
+.venv/
