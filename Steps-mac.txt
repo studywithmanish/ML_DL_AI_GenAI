@@ -61,3 +61,19 @@ selected option - https
 
 then via browser step key which mac terminal generated 
 ***************************
+
+
+How to convert jupyternotebook to pdf
+
+uv pip install nbconvert pandoc
+brew install pandoc
+brew install mactex
+
+echo 'export PATH="/Library/TeX/texbin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+
+terminal -  jupyter nbconvert your_notebook.ipynb --to pdf --no-input
+
+or jupyter notebook ... export to pdf
+********

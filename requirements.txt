@@ -8,3 +8,5 @@ tensorflow
 keras   
 jupyter
 notebook
+nbconvert
+pandoc 
